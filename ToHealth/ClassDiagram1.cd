@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ToHealth.DB.DBToHealth" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAAAAAAAAACAAAAAAAAAABAAAgAAAAAAAAA=</HashCode>
+      <FileName>DB\DBToHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.DB.Diseases" Collapsed="true">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Diseases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.DB.Medicaments" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Medicaments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.DB.Reminders" Collapsed="true">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQQBAAQAAACAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DB\Reminders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.DB.User" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAgAAEAA=</HashCode>
+      <FileName>DB\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.DB.UserInfo" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAABAAQAAAAAAAQgAAAAgAgAAAAEAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>DB\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.Pages.AboutUs" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\AboutUs.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.Pages.Journal" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pages\Journal.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.Pages.Profile" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Pages\Profile.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.Pages.Therapy" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAMAAAAAAA=</HashCode>
+      <FileName>Pages\Therapy.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.Pages.Today" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Pages\Today.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.Therapy.Medicament" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Therapy\Medicament.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.133" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.App" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.Diary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Diary.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.Login" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAABAAAAAAAAAAgAAAAAAAAAAAAAACAgAA=</HashCode>
+      <FileName>Login.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.MainClass" Collapsed="true">
+    <Position X="8.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MainClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToHealth.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.21" Collapsed="true" />
+  </Class>
+  <Class Name="ToHealth.Registration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQJAAAAgAAAAAgAAAAAAAAAAgAAAEQAAAAgAA=</HashCode>
+      <FileName>Registration.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

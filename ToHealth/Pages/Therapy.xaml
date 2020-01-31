@@ -1,0 +1,15 @@
+﻿<Page x:Class="ToHealth.Pages.Therapy"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ToHealth.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="525" d:DesignWidth="750"
+      Title="Therapy">
+
+    <StackPanel VerticalAlignment="Center">
+        <Button x:Name="butAdd" Style="{StaticResource ButStyle00}" Content="Добавить" Height="70" Width="550" Margin="0,15,0,20" Click="PageAdd_Click"/>
+        <Button x:Name="diary" Style="{StaticResource ButStyle00}" Content="Дневник" Height="70" Width="550" Margin="0,15,0,20" Click="Diary_Click"/>
+    </StackPanel>
+</Page>

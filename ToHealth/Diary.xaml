@@ -1,0 +1,13 @@
+﻿<Window x:Class="ToHealth.Diary"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToHealth"
+        mc:Ignorable="d"
+        Title="Diary" Height="243.139" Width="219.979">
+    <Grid>
+        <TextBox x:Name="Weight" Margin="17,40,17,140"></TextBox>
+        <Button x:Name="button" Content="Добавить" Click="Button_Click"  Margin="23,114,23,66"/>
+    </Grid>
+</Window>

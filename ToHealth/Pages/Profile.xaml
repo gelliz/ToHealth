@@ -1,0 +1,63 @@
+﻿<Page x:Class="ToHealth.Pages.Profile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ToHealth.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="525" d:DesignWidth="750"
+      Title="Profile">
+    <Page.Resources>
+        <Style x:Key="ST4">
+            <Setter Property="Control.FontSize" Value="20" />
+            <Setter Property="Control.HorizontalAlignment" Value="Right" />
+            <Setter Property="Control.Background" Value="#4E57FF" />
+            <Setter Property="Control.Foreground" Value="#FF303A42" />
+            <Setter Property="Control.Height" Value="25" />
+        </Style>
+        <Style x:Key="ST5">
+            <Setter Property="Control.FontSize" Value="20" />
+            <Setter Property="Control.HorizontalAlignment" Value="Left" />
+            <Setter Property="Control.Background" Value="#FFDADADA" />
+            <Setter Property="Control.Foreground" Value="#FF303A42" />
+            <Setter Property="Control.Height" Value="25" />
+            <Setter Property="Control.Width" Value="250"/>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="375"/>
+            <ColumnDefinition Width="375"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="380"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0">
+            <TextBlock Text="Имя пользователя:" Style="{StaticResource ST4}" Margin="0,25,10,330"></TextBlock>
+            <TextBlock Text="E-mail:" Style="{StaticResource ST4}" Margin="0,65,10,290"></TextBlock>
+            <TextBlock Text="Дата рождения:" Style="{StaticResource ST4}" Margin="0,95,10,250"></TextBlock>
+            <TextBlock Text="Пол:" Style="{StaticResource ST4}" Margin="0,135,10,210"></TextBlock>
+            <TextBlock Text="Рост:" Style="{StaticResource ST4}" Margin="0,175,10,170"></TextBlock>
+            <TextBlock Text="Вес:" Style="{StaticResource ST4}" Margin="0,215,10,130"></TextBlock>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <TextBlock x:Name="name" Style="{StaticResource ST5}" Margin="10,25,0,330"></TextBlock>
+            <TextBlock x:Name="email" Style="{StaticResource ST5}" Margin="10,65,0,290"></TextBlock>
+            <TextBlock x:Name="bday" Text="{Binding bday, StringFormat=d}" Style="{StaticResource ST5}" Margin="10,100,0,255"></TextBlock>
+            <TextBlock x:Name="gender" Style="{StaticResource ST5}" Margin="10,135,0,210"></TextBlock>
+            <TextBlock x:Name="height" Style="{StaticResource ST5}" Margin="10,175,0,170"></TextBlock>
+            <TextBlock x:Name="weight" Style="{StaticResource ST5}" Margin="10,220,0,135"></TextBlock>
+        </Grid>
+
+        <Grid Grid.ColumnSpan="2" Grid.Row="1">
+            <Button x:Name="exit" Height="50" Width="150" Content="Exit" Click="exitButton_Click"></Button>
+        </Grid>
+        
+    </Grid>
+</Page>

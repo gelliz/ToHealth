@@ -1,0 +1,56 @@
+﻿<Page x:Class="ToHealth.Pages.AboutUs"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ToHealth.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="525" d:DesignWidth="750"
+      Title="AboutUs">
+    <Page.Resources>
+        <Style x:Key="ST2">
+            <Setter Property="Control.FontSize" Value="20" />
+            <Setter Property="Control.HorizontalAlignment" Value="Left" />
+            <Setter Property="Control.Background" Value="#4E57FF" />
+            <Setter Property="Control.Foreground" Value="#FF303A42" />
+            <Setter Property="Control.Margin" Value="10,20,10,0" />
+        </Style>
+        <Style x:Key="ST3">
+            <Setter Property="Control.FontSize" Value="20" />
+            <Setter Property="Control.HorizontalAlignment" Value="Stretch" />
+            <Setter Property="Control.Background" Value="#4E57FF" />
+            <Setter Property="Control.Foreground" Value="#FF303A42" />
+        </Style>
+    </Page.Resources>
+
+    <StackPanel>
+        <TextBlock Style="{StaticResource ST2}" TextWrapping="Wrap">
+                Мы здесь, чтобы помочь Вам
+        </TextBlock>
+
+        <TextBlock Style="{StaticResource ST3}" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,10,0,0">
+                У Вас есть вопросы или предложения касательно работы MyTherapy? 
+            Обращайтесь к нам по телефону c понедельника по пятницу с 9 утра до 5 вечера 
+            по центральноевропейскому летнему времени (CEST) или пришлите нам письмо по электронной почте
+        </TextBlock>
+
+        <TextBlock Style="{StaticResource ST2}" TextWrapping="Wrap">
+                Свяжитесь с нами
+        </TextBlock>
+
+        <TextBlock Style="{StaticResource ST3}" TextWrapping="Wrap">
+                Тел: +49 89 1222 493 33
+        </TextBlock>
+        
+        <TextBlock Style="{StaticResource ST3}" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,10,0,0">
+                E-mail: support@mytherapyapp.com
+        </TextBlock>
+
+        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,10,0,0">
+                ToHealth
+        </TextBlock>
+        
+        <TextBlock Name="versionBlock" TextWrapping="Wrap" HorizontalAlignment="Left" Margin="0,10,0,0"/>
+
+    </StackPanel>
+</Page>
